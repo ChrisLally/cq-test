@@ -1,0 +1,362 @@
+{
+  "build": {
+    "env": {
+      "ENABLE_ROOT_PATH_BUILD_CACHE": "1",
+      "FORCE_RUNTIME_TAG": "canary"
+    }
+  },
+  "github": {
+    "silent": true,
+    "enabled": true
+  },
+  "redirects": [
+    {
+      "source": "/discord",
+      "destination": "https://discord.gg/QwnWfrcfHg"
+    },
+    {
+      "source": "/discrod",
+      "destination": "https://discord.gg/QwnWfrcfHg"
+    },
+    {
+      "source": "/dicsord",
+      "destination": "https://discord.gg/QwnWfrcfHg"
+    },
+    {
+      "source": "/og-image/:title",
+      "destination": "https://img.abyssale.com/3b183707-abf0-46ec-9edd-16b712a08b65?text_title=:title"
+    },
+    {
+      "source": "/docs/cli/commands/cloudquery",
+      "destination": "/docs/reference/cli/cloudquery"
+    },
+    {
+      "source": "/providers/:path*",
+      "destination": "/docs/plugins/sources"
+    },
+    {
+      "source": "/plugins/:path*",
+      "destination": "/docs/plugins/sources"
+    },
+    {
+      "source": "/docs/developers/developing-source-plugin",
+      "destination": "/docs/developers/creating-new-plugin"
+    },
+    {
+      "source": "/docs/developers/developing-new-provider",
+      "destination": "/docs/developers/creating-new-plugin"
+    },
+    {
+      "source": "/docs/configuration/overview",
+      "destination": "/docs"
+    },
+    {
+      "source": "/docs/policies",
+      "destination": "/docs/core-concepts/policies"
+    },
+    {
+      "source": "/providers",
+      "destination": "/docs/plugins/sources"
+    },
+    {
+      "source": "/docs/getting-started/:path*",
+      "destination": "/docs/quickstart"
+    },
+    {
+      "source": "/docs/deployment/observability",
+      "destination": "/docs/deployment/overview"
+    },
+    {
+      "source": "/docs/recipes/aws-postgresql",
+      "destination": "/integrations/aws/postgresql"
+    },
+    {
+      "source": "/docs/recipes/gcp-postgresql",
+      "destination": "/integrations/gcp/postgresql"
+    },
+    {
+      "source": "/docs/recipes/gcp-k8s-postgresql",
+      "destination": "/integrations/gcp/postgresql"
+    },
+    {
+      "source": "/docs/recipes/azure-postgresql",
+      "destination": "/integrations/azure/postgresql"
+    },
+    {
+      "source": "/docs/recipes/aws-csv",
+      "destination": "/integrations/aws/file"
+    },
+    {
+      "source": "/docs/cli/fetch/overview",
+      "destination": "/docs/reference/cli/cloudquery"
+    },
+    {
+      "source": "/docs/cli/commands/provider-purge",
+      "destination": "/docs/reference/cli/cloudquery"
+    },
+    {
+      "source": "/docs/security",
+      "destination": "/docs/advanced-topics/security"
+    },
+    {
+      "source": "/docs/best-practices",
+      "destination": "/docs"
+    },
+    {
+      "source": "/docs/tutorials/assume_role",
+      "destination": "/blog/cross-account-access-aws-assumerole"
+    },
+    {
+      "source": "/docs/cq_vs_others/:other",
+      "destination": "/docs/cq-vs-others/:other"
+    },
+    {
+      "source": "/database-configuration",
+      "destination": "/docs/reference/destination-spec"
+    },
+    {
+      "source": "/docs/cli/commands/(.*)",
+      "destination": "/docs/reference/cli/cloudquery"
+    },
+    {
+      "source": "/developers/developing-new-provider",
+      "destination": "/docs/developers/creating-new-plugin"
+    },
+    {
+      "source": "/docs/plugins/sources",
+      "destination": "/docs/plugins/sources/overview"
+    },
+    {
+      "source": "/docs/plugins/destinations",
+      "destination": "/docs/plugins/destinations/overview"
+    },
+    {
+      "source": "/docs/plugins/source-plugin-release-stages",
+      "destination": "/docs/plugins/sources/overview#source-plugin-release-stages"
+    },
+    {
+      "source": "/docs/recipes/sources/:plugin",
+      "destination": "/docs/plugins/sources/:plugin/configuration"
+    },
+    {
+      "source": "/docs/recipes/destinations/:plugin",
+      "destination": "/docs/plugins/destinations/:plugin/overview"
+    },
+    {
+      "source": "/docs/recipes/overview",
+      "destination": "/docs/core-concepts/configuration"
+    },
+    {
+      "source": "/docs/core-concepts/migrations",
+      "destination": "/docs/advanced-topics/migrations"
+    },
+    {
+      "source": "/docs/plugins/sources/aws/multi_account",
+      "destination": "/docs/plugins/sources/aws/multi-account"
+    },
+    {
+      "source": "/blog/cloud-asset-inventory-cloudquery-apache-superset",
+      "destination":"/how-to-guides/cloud-asset-inventory-cloudquery-apache-superset"
+    },
+    {
+      "source": "/blog/cloud-asset-inventory-cloudquery-aws-quicksight",
+      "destination": "/how-to-guides/cloud-asset-inventory-cloudquery-aws-quicksight"
+    },
+    {
+      "source": "/blog/cloud-asset-inventory-cloudquery-google-data-studio",
+      "destination": "/how-to-guides/cloud-asset-inventory-cloudquery-google-data-studio"
+    },
+    {
+      "source": "/blog/cloud-asset-inventory-cloudquery-metabase",
+      "destination": "/how-to-guides/cloud-asset-inventory-cloudquery-metabase"
+    },
+    {
+      "source": "/blog/cloud-asset-inventory-cloudquery-microsoft-power-bi",
+      "destination": "/how-to-guides/cloud-asset-inventory-cloudquery-microsoft-power-bi"
+    },
+    {
+      "source": "/blog/cloudquery-postgraphile",
+      "destination": "/how-to-guides/cloudquery-postgraphile"
+    },
+    {
+      "source": "/blog/cloudquery-postgrest",
+      "destination": "/how-to-guides/cloudquery-postgrest"
+    },
+    {
+      "source": "/blog/cross-account-access-aws-assumerole",
+      "destination": "/how-to-guides/cross-account-access-aws-assumerole"
+    },
+    {
+      "source": "/blog/deploying-cloudquery-into-aws-org",
+      "destination": "/how-to-guides/deploying-cloudquery-into-aws-org"
+    },
+    {
+      "source": "/blog/open-source-cspm",
+      "destination": "/how-to-guides/open-source-cspm"
+    },
+    {
+      "source": "/docs/plugins/sources/tailscale/configuration",
+      "destination": "/docs/plugins/sources/tailscale/overview"
+    },
+    {
+      "source": "/docs/cq-vs-others/airbyte",
+      "destination": "/docs/cq-vs-others/airbyte-alternative-cloudquery"
+    },
+    {
+      "source": "/docs/cq-vs-others/aws-config",
+      "destination": "/docs/cq-vs-others/aws-config-alternative-cloudquery"
+    },
+    {
+      "source": "/docs/cq-vs-others/cloudsploit",
+      "destination": "/docs/cq-vs-others/cloudsploit-alternative-cloudquery"
+    },
+    {
+      "source": "/docs/cq-vs-others/cspms",
+      "destination": "/docs/cq-vs-others/cspm-alternative-cloudquery"
+    },
+    {
+      "source": "/docs/cq-vs-others/fivetran",
+      "destination": "/docs/cq-vs-others/fivetran-alternative-cloudquery"
+    },
+    {
+      "source": "/docs/cq-vs-others/google-cloud-asset-inventory",
+      "destination": "/docs/cq-vs-others/google-cloud-asset-inventory-alternative-cloudquery"
+    },
+    {
+      "source": "/docs/cq-vs-others/steampipe",
+      "destination": "/docs/cq-vs-others/steampipe-alternative-cloudquery"
+    },
+    {
+      "source": "/blog/how-hexagon-built-an-infrastructure-data-platform",
+      "destination": "/blog/how-hexagon-built-an-infrastructure-data-lake"
+    },
+    {
+      "source": "/contact",
+      "destination": "https://cloudquery.typeform.com/to/UrgOydHV"
+    },
+    {
+      "source": "/contact-policies",
+      "destination": "https://cloudquery.typeform.com/to/TTBdFOfe"
+    },
+    {
+      "source": "/docs/support",
+      "destination": "/pricing"
+    },
+    {
+      "source": "/docs/plugins/destinations/csv/overview",
+      "destination": "/docs/plugins/destinations/file/overview"
+    },
+    {
+      "source": "/docs/advanced-topics/docker",
+      "destination": "/docs/deployment/docker"
+    },
+    {
+      "source": "/buy/jira",
+      "destination": "https://buy.stripe.com/eVa4gk8U99tB9ywbIR"
+    },
+    {
+      "source": "/buy/googleads",
+      "destination": "https://buy.stripe.com/dR6aEIgmBcFN5ig000"
+    },
+    {
+      "source": "/buy/firehose",
+      "destination": "https://buy.stripe.com/6oEbIMfix35d7qo28i"
+    },
+    {
+      "source": "/buy/gandi",
+      "destination": "https://buy.stripe.com/00geUY6M17lt9yw3cd"
+    },
+    {
+      "source": "/buy/heroku",
+      "destination": "https://buy.stripe.com/28o28c0nD7ltfWU9AC"
+    },
+    {
+      "source": "/buy/launchdarkly",
+      "destination": "https://buy.stripe.com/9AQbIM0nDgW35ig4gj"
+    },
+    {
+      "source": "/buy/mixpanel",
+      "destination": "https://buy.stripe.com/fZe4gk1rH6hpcKI7sw"
+    },
+    {
+      "source": "/buy/slack",
+      "destination": "https://buy.stripe.com/6oE5koc6l49h1209AF"
+    },
+    {
+      "source": "/buy/tailscale",
+      "destination": "https://buy.stripe.com/14kdQU6M17lt8us14c"
+    },
+    {
+      "source": "/buy/vercel",
+      "destination": "https://buy.stripe.com/fZeeUYeet7lteSQcMS"
+    },
+    {
+      "source": "/buy/azure_cis_130_snowflake",
+      "destination": "https://buy.stripe.com/9AQ148fixcFNfWU8wH"
+    },
+    {
+      "source": "/buy/azure_cis_130_bigquery",
+      "destination": "https://buy.stripe.com/28o3cggmB219cKI5kw"
+    },
+    {
+      "source": "/buy/azure_hippa_92_snowflake",
+      "destination": "https://buy.stripe.com/bIY28c4DTfRZaCA9AN"
+    },
+    {
+      "source": "/buy/azure_hippa_92_bigquery",
+      "destination": "https://buy.stripe.com/14k0040nD35dfWUeV8"
+    },
+    {
+      "source": "/buy/aws_cis_150_snowflake",
+      "destination": "https://buy.stripe.com/cN2cMQ0nD0X5dOM6oD"
+    },
+    {
+      "source": "/buy/aws_cis_150_bigquery",
+      "destination": "https://buy.stripe.com/9AQ8wAgmB9tB26400g"
+    },
+    {
+      "source": "/buy/aws_foundational_security_snowflake",
+      "destination": "https://buy.stripe.com/cN2eUYdap6hp264eVb"
+    },
+    {
+      "source": "/buy/aws_foundational_security_bigquery",
+      "destination": "https://buy.stripe.com/4gw7sw9Yd49h26428q"
+    },
+    {
+      "source": "/buy/gcp_cis_120_snowflake",
+      "destination": "https://buy.stripe.com/eVa5ko8U9gW3264cN5"
+    },
+    {
+      "source": "/buy/gcp_cis_120_bigquery",
+      "destination": "https://buy.stripe.com/9AQaEIb2h7ltaCA00k"
+    },
+    {
+      "source": "/buy/k8s_nsa_cisa_v1_snowflake",
+      "destination": "https://buy.stripe.com/00g28c3zPaxFfWUfZj"
+    },
+    {
+      "source": "/buy/k8s_nsa_cisa_v1_bigquery",
+      "destination": "https://buy.stripe.com/fZedQU1rHgW3cKI9AW"
+    },
+    {
+      "source": "/new-source-plugin",
+      "destination": "/integrations"
+    },
+    {
+      "source": "/register_for_cloud",
+      "destination": "/register-for-cloud"
+    },
+    {
+      "source": "/apply_for_job",
+      "destination": "https://apply.workable.com/cloudquery/"
+    },
+    {
+      "source": "/careers",
+      "destination": "https://apply.workable.com/cloudquery/"
+    },
+    {
+      "source": "/careers/overview",
+      "destination": "https://apply.workable.com/cloudquery/"
+    }
+  ]
+}

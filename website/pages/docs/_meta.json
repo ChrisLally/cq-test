@@ -1,0 +1,20 @@
+{
+  "index": "Introduction",
+  "quickstart": "Quickstart",
+  "core-concepts": "Core Concepts",
+  "plugins": "Plugins",
+  "deployment": "Deployment",
+  "advanced-topics": "Advanced Topics",
+  "developers": "Developers",
+  "reference": "Reference",
+  "glossary": "Glossary",
+  "cq-vs-others": "CloudQuery vs Others",
+  "faq": "FAQ",
+  "telemetry": "Telemetry",
+  "troubleshooting": "Troubleshooting",
+  "changelog": {
+    "title": "Changelog ↗",
+    "href": "https://github.com/cloudquery/cloudquery/blob/main/cli/CHANGELOG.md",
+    "newWindow": true
+  }
+}

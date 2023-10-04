@@ -54,7 +54,7 @@ export default function Home() {
              Finally,&nbsp;
              <br className="hidden lg:block" />
              <span className="pr-1 inline-block text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-blue-500 ">
-             reliable
+             dependable
              </span>
              &nbsp;
              ELT
